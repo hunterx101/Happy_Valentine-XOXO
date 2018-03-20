@@ -16,8 +16,8 @@ print('\n' * 10 + ' ' * 62 + ' Welcome to A Heart Filled With Love')
 firstName = input('\n\n\n\n' + ' ' * 66 + "Please enter your name:\n\n" + ' ' * 78)
 
 if (firstName == 'Ayman'):
-    lastName = input('\n\n' + ' ' * 66 + "Please enter your EX name:\n\n" + ' ' * 77)
-    if (lastName == '????'):
+    exname = input('\n\n' + ' ' * 66 + "Please enter your EX name:\n\n" + ' ' * 77)
+    if (exname == '????'):
         # getpass used to keep password characters private while typing
         pin = getpass.getpass('\n\n' + ' ' * 69 + "Please enter your PIN:\n\n" + ' ' * 78)
         if (pin == '1351'):
